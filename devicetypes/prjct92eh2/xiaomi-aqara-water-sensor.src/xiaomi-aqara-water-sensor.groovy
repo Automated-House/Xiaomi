@@ -137,7 +137,7 @@ private Map getBatteryResult(rawValue) {
     }
    
     result.value = volts
-	result.descriptionText = "${linkText} battery was ${result.value}%"
+	result.descriptionText = "${device.displayName} battery was ${result.value}%"
 
 	return result
 }
