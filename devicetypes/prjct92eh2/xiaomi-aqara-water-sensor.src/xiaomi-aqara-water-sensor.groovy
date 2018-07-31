@@ -17,7 +17,7 @@ import physicalgraph.zigbee.clusters.iaszone.ZoneStatus
 
 
 metadata {
-	definition(name: "Xiaomi Aqara Water Sensor", namespace: "prjct92eh2", author: "prjct92eh2") {
+	definition(name: "Xiaomi Aqara Water Sensor", namespace: "prjct92eh2", author: "prjct92eh2", mnmn: "SmartThings", vid: "generic-leak") {
 		capability "Configuration"
 		capability "Battery"
 		capability "Refresh"
