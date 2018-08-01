@@ -24,7 +24,7 @@
  *
  */
 metadata {
-   definition (name: "Xiaomi Door/Window Sensor", namespace: "prjct92eh2", author: "prjct92eh2") {
+   definition (name: "Xiaomi Door/Window Sensor", namespace: "prjct92eh2", author: "prjct92eh2", mnmn: "SmartThings", vid: "generic-contact") {
    capability "Configuration"
    capability "Sensor"
    capability "Contact Sensor"
